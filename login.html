@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<!-- <link rel="stylesheet" type="text/css" href="simple-grid.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<nav class="head-nav">
+			<span class="brand">Intent</span>
+			<ul class="head-nav-list">
+				<li class="head-nav-list-item"><a href="#">Industries</a></li>
+				<li class="head-nav-list-item"><a href="#">Companies</a></li>
+				<li class="head-nav-list-item"><a href="#">Jobs</a></li>
+				<li class="head-nav-list-item"><a href="#">Seekers</a></li>
+				<li class="head-nav-list-item"><a href="#">Recruiters</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="container">
+		<div class="login-page">
+			<form id="login-form" action="/login" method="post">
+				<label for="username" id="form-label">UserName</label>
+				<br>
+				<input id="form-input" type="text" name="username" placeholder="Email or username" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email or username'">
+				<br>
+				<label for="password" id="form-label">Password</label>
+				<br>
+				<input id="form-input" type="password" name="password" placeholder="********" onfocus="this.placeholder = ''" onblur="this.placeholder = '********'">
+				<br>
+				<input id="form-submit" type="submit" name="submit" value="Log In">
+			</form>
+		</div>
+	</div>
+	<footer>
+		<div class="foot-contain">
+			<div class="copyrights">&copy; Paang All rights reserved</div>
+			<div class="site-footer">
+				<ul class="footer-list">
+					<li>About us</li>
+					<li>Contact us</li>
+					<li>Business</li>
+					<li>Terms and conditions</li>
+					<li>Help</li>
+					<li>Api</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
