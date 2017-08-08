@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+body {
+	font-family: Lato;
+	width: 100%;
+	margin: 0 auto;
+}
+header{
+	width: 80%;
+	margin: 0 auto;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+.head-nav-list {
+	float: right;
+}
+.head-nav .head-nav-list .head-nav-list-item {
+	list-style: none;
+	display: inline-block;
+	padding: 10px;	
+}
+.head-nav-list-item {	
+	border-bottom: 2px solid #fff;
+}
+.head-nav-list-item a:hover, a:visited, a:link, a:active{
+	text-decoration: none;
+	color: #000;
+}
+.head-nav-list-item:hover {
+	border-bottom: 2px solid #83ff00;
+}
+.brand {
+	float: left;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-top: 20px;
+}
+.login-page {	
+	clear: both;
+	padding: 100px 0 100px 0;
+	display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+}
+#form-label {
+	font-weight: bold;
+	padding: 5px;
+}
+#form-input {
+	margin: 5px;
+	padding: 10px;
+	width: 250px;
+	border-radius: 3px;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	outline: none;
+}
+#form-input:focus {
+	border-bottom: 1px solid #83ff00;
+}
+#form-submit {
+	margin: 5px;
+	padding: 8px 15px 8px 15px;
+	background-color: #83ff00;
+	border-radius: 5px;
+	border: 1px solid #74ff18;
+}
+footer {	
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	background-color: #efefef;
+	text-align: center;
+}
+.foot-contain {
+	width: 80%;
+	margin: 0 auto;
+}
+.copyrights {	
+	padding-top: 20px;
+	float: left;
+}
+.site-footer {
+	float: right;
+}
+.footer-list {
+	list-style: none;
+}
+.footer-list li {
+	padding: 5px;
+	display: inline-block;
+}
