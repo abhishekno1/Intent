@@ -8,6 +8,9 @@ header{
 	width: 80%;
 	margin: 0 auto;
 }
+ul{
+	padding: inherit;
+}
 .container {
 	width: 80%;
 	margin: 0 auto;
@@ -30,6 +33,21 @@ header{
 .head-nav-list-item:hover {
 	border-bottom: 2px solid #83ff00;
 }
+li.head-nav-list-item:last-child:hover {
+	border-bottom: 2px solid #fff;
+}
+#log-in {
+	padding: 5px 15px 5px 15px;
+	background-color: #fff;
+	border-radius: 5px;
+	border: 1px solid #74ff18;
+	-webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    outline: none;
+}
+#log-in:hover{
+	background-color: #74ff18;
+}
 .brand {
 	float: left;
 	font-weight: bold;
@@ -42,6 +60,66 @@ header{
 	display:-webkit-box;
     -webkit-box-pack:center;
     -webkit-box-align:center;
+}
+.description-main {
+	clear: both;
+}
+.profile-synapses {
+	line-height: 0.3em;
+}
+.short-details {
+	font-size: 0.8em;
+	color: #9e9e9e;
+}
+.description-nav-list {
+	list-style: none;
+}
+.description-nav-list-item {
+	margin: 5px 5px;
+	display: inline-block;
+	padding: 5px 5px 5px 0;
+	border-bottom: 2px solid #fff;
+}
+.description-nav-list-item:hover {
+	border-bottom: 2px solid #83ff00;
+}
+.important-detail {
+	width: 30%;
+	margin: 10px 10px;
+}
+.important-detail-list-headings {
+	list-style: none;
+	float: left;
+}
+.important-detail-list {
+	list-style: none;
+	float: right;
+}
+.job-skills {
+	margin: 5px 5px;
+	clear: both;
+}
+#skill-tag {
+	padding: 5px;
+	border: 1px solid #74ff18;
+	border-radius: 5px;
+}
+.description-detail {
+	clear: both;
+}
+#apply {
+	margin: 5px;
+	padding: 8px 15px 8px 15px;
+	background-color: #fff;
+	border-radius: 5px;
+	border: 1px solid #74ff18;
+	-webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    outline: none;
+    font-weight: bold;    
+}
+#apply:hover {
+	background-color: #74ff18;
 }
 #form-label {
 	font-weight: bold;
@@ -62,9 +140,15 @@ header{
 #form-submit {
 	margin: 5px;
 	padding: 8px 15px 8px 15px;
-	background-color: #83ff00;
+	background-color: #fff;
 	border-radius: 5px;
 	border: 1px solid #74ff18;
+	-webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    outline: none;
+}
+#form-submit:hover {
+	background-color: #74ff18;
 }
 footer {	
 	position: absolute;
